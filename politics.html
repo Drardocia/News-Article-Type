@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politics: Governance & Change | HumaniLens</title>
+    <meta name="description" content="Philippine Politics and Governance: Analyzing power, state, EDSA, and constitutional change.">
+    <meta name="author" content="HumaniLens Team">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div id="loader"><div class="spinner"></div></div>
+
+    <!-- Scroll Progress -->
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">HumaniLens</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="creative-writing.html">Creative Writing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="creative-nonfiction.html">Nonfiction</a></li>
+                    <li class="nav-item"><a class="nav-link" href="diss.html">DISS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="religion.html">Religion</a></li>
+                    <li class="nav-item"><a class="nav-link" href="diass.html">DIASS</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="politics.html">Politics</a></li>
+                    <li class="nav-item"><a class="nav-link" href="community.html">Community</a></li>
+                    <li class="nav-item"><a class="nav-link" href="trends.html">Trends</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Article Container -->
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            
+            <!-- Main Content Column -->
+            <main class="col-lg-8 fade-in">
+                <!-- Article Header -->
+                <header class="mb-5">
+                    <span class="badge bg-primary mb-3 text-uppercase tracking-wide">Politics & Governance</span>
+                    <h1 class="display-4 fw-bold font-playfair mb-3">Philippine Politics and Governance</h1>
+                    <div class="d-flex align-items-center text-muted border-bottom pb-4">
+                        <div class="small">
+                            <span class="fw-bold text-dark">By HumaniLens Team</span>
+                            <span class="mx-2">&bull;</span>
+                            <span>October 31, 2023</span>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- Featured Image -->
+                <figure class="figure w-100 mb-5 fade-in">
+                    <div class="card-header-placeholder rounded" style="height: 400px; background: linear-gradient(to right, #243949 0%, #517fa4 100%);"></div>
+                    <figcaption class="figure-caption mt-2 text-center">Analyzing the structures of power and state.</figcaption>
+                </figure>
+
+                <!-- Article Body -->
+                <article class="article-body font-inter">
+                    
+                    <!-- Section 1: What is Politics? -->
+                    <h2 id="what-is-politics" class="h3 font-playfair mb-3">1. What is Politics in this subject?</h2>
+                    <p class="drop-cap">Politics, in the context of the Senior High School curriculum, is the study of the state and government. It deals with the theory and practice of politics, the analysis of political systems, and the study of political behavior. According to DepEd, this subject aims to equip students with the knowledge to understand the dynamics of the Philippine government and the rights and responsibilities of citizenship <span class="text-muted small">(DepEd, 2016)</span>.</p>
+                    
+                    <p>Academically, it moves beyond partisan bickering. It is a disciplined inquiry into how power is acquired, exercised, and checked within a society. It compels us to ask: How do institutions function? And more importantly, whom do they serve?</p>
+
+                    <div class="section-divider fade-in"></div>
+
+                    <!-- Section 2: EDSA 40 (Timeline Style) -->
+                    <h2 id="edsa-timeline" class="h3 font-playfair mb-4">2. EDSA 40: Is There Political Maturity?</h2>
+                    <p class="mb-4">Nearly four decades after the historic 1986 People Power Revolution, the question remains: Have we matured politically? The event was a global beacon of democracy, yet the challenges of governance persist.</p>
+
+                    <div class="timeline ms-2 mb-5 fade-in">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <h5 class="font-playfair fw-bold">1986</h5>
+                            <p class="small text-muted">The People Power Revolution restores democracy, ending martial law and establishing a new constitution.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <h5 class="font-playfair fw-bold">Post-EDSA Era</h5>
+                            <p class="small text-muted">Restoration of democratic institutions, free press, and regular elections, though plagued by coup attempts and corruption issues.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <h5 class="font-playfair fw-bold">Present Day</h5>
+                            <p class="small text-muted">Political maturity is tested by the rise of populism, the role of social media in elections, and the continued struggle for inclusive growth.</p>
+                        </div>
+                    </div>
+
+                    <p>Political maturity is not just about holding elections; it is about the electorate's ability to demand accountability and the institutions' ability to deliver justice. The legacy of EDSA is not a finished product but a continuous process of nation-building.</p>
+
+                    <div class="section-divider fade-in"></div>
+
+                    <!-- Section 3: Constitutional Change -->
+                    <h2 id="constitutional-change" class="h3 font-playfair mb-3">3. Constitutional Change</h2>
+                    <p>Constitutional change, or "Cha-cha" (Charter Change), is a recurring topic in Philippine political discourse. Proponents argue that the 1987 Constitution's economic restrictions hinder foreign investment and that a shift to a federal form of government could decentralize power and spur regional development.</p>
+                    
+                    <p>However, critics warn that constitutional change could be used to extend term limits or consolidate power among the elite. From an academic standpoint, any amendment to the fundamental law of the land requires rigorous debate and broad public consensus. It is not merely a legal procedure but a re-definition of the social contract between the state and its people.</p>
+
+                </article>
+
+                <!-- Author Bio Box -->
+                <div class="bg-light p-4 rounded mt-5 fade-in">
+                    <h5 class="font-playfair">About the Section</h5>
+                    <p class="small mb-0">The Politics and Governance section provides critical analysis of political structures, history, and current events in the Philippines.</p>
+                </div>
+            </main>
+
+            <!-- Sidebar -->
+            <aside class="col-lg-4 mt-5 mt-lg-0">
+                <div class="sticky-top" style="top: 100px; z-index: 1;">
+                    
+                    <!-- Quick Nav -->
+                    <div class="card border-0 shadow-sm mb-4 fade-in">
+                        <div class="card-body">
+                            <h5 class="card-title font-playfair">In This Article</h5>
+                            <ul class="list-unstyled small mb-0">
+                                <li class="mb-2"><a href="#what-is-politics" class="text-decoration-none text-secondary">What is Politics?</a></li>
+                                <li class="mb-2"><a href="#edsa-timeline" class="text-decoration-none text-secondary">EDSA 40 Timeline</a></li>
+                                <li><a href="#constitutional-change" class="text-decoration-none text-secondary">Constitutional Change</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Quote Box -->
+                    <div class="card bg-primary text-white border-0 shadow-sm fade-in">
+                        <div class="card-body text-center">
+                            <p class="fst-italic mb-2">"One of the penalties for refusing to participate in politics is that you end up being governed by your inferiors."</p>
+                            <small>— Plato</small>
+                        </div>
+                    </div>
+
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5 mt-5">
+        <div class="container text-center">
+            <p class="small text-white-50">&copy; <span id="year"></span> HumaniLens. Designed for Academic Purposes.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="btn btn-primary shadow" aria-label="Back to Top">↑</button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
